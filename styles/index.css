@@ -1,0 +1,17 @@
+@import url('./blocks/header.css');
+@import url('./blocks/buttons.css');
+@import url('./blocks/spotify.css');
+@import url('./blocks/boxes.css');
+@import url('./blocks/responsive.css');
+
+/* RESET GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fde4ec;
+}

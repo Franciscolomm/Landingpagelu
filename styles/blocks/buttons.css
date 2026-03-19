@@ -1,0 +1,34 @@
+.header-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #1DB954;
+  border-color: #1DB954;
+  color: white;
+}
+
+.btn-solid {
+  background: #fde4ec;
+  color: white;
+}
+
+.btn-solid:hover {
+  opacity: 0.8;
+}
