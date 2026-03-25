@@ -3,6 +3,9 @@
 @import url('./blocks/spotify.css');
 @import url('./blocks/boxes.css');
 @import url('./blocks/responsive.css');
+@import url('./blocks/events.css');
+@import url('./blocks/contact.css');
+@import url('./blocks/menu.css');
 
 /* RESET GLOBAL */
 * {
@@ -14,4 +17,33 @@
 
 body {
   background: #fde4ec;
+  scroll-behavior: smooth; /* Para que los enlaces de scroll sean suaves */
+}
+
+/* MENU LATERAL */
+.side-menu {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.side-menu ul {
+  list-style: none;
+}
+
+.side-menu li {
+  margin: 15px 0;
+}
+
+.side-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.side-menu a:hover {
+  color: #1DB954;
 }

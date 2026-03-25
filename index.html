@@ -11,6 +11,15 @@
 
 <body>
 
+  <!-- MENU -->
+  <nav class="top-menu">
+    <ul>
+      <li><a href="#spotify">Mis canciones</a></li>
+      <li><a href="#events">Próximos eventos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
   <!-- HEADER -->
   <header class="header">
     <video autoplay muted loop playsinline>
@@ -22,7 +31,7 @@
       <p>22 de abril<br>Foro Universitario Pablo Silva García</p>
 
       <div class="header-buttons">
-        <a href="https://open.spotify.com/intl-es/artist/0pPDOq3urWHuXjQdTYVcab" target="_blank" class="btn btn-outline">
+        <a href="#spotify" class="btn btn-outline">
           Escúchala ahora
         </a>
 
@@ -34,44 +43,102 @@
   </header>
 
   <!-- SPOTIFY -->
-  <section class="spotify-section">
+  <section class="spotify-section" id="spotify">
     <h2>Escucha sus canciones</h2>
+
+    <div class="boxes">
+      <a href="https://open.spotify.com/intl-es/track/0FovSrwJq5ePSqWp1mTcDN" class="box">
+        <img src="images/Mi corazon.png">
+        <h3>MI CORAZÓN</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/5P07LDV1emqJUY5qJsvNYA" class="box">
+        <img src="images/home.png">
+        <h3>HOME</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/1ZY2Bf90O40gRVqHZzz78k" class="box">
+        <img src="images/violetas.png">
+        <h3>VIOLETAS</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/6bkv3n73aaF5z6jUO8bYM9" class="box">
+        <img src="images/café con sal.png">
+        <h3>CAFÉ CON SAL</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/3BKMckqT9OLmEzqIP6NJ6c" class="box">
+        <img src="images/origen.png">
+        <h3>ORIGEN</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/6E2uSCe4YixjBWl4JBHFVh" class="box">
+        <img src="images/Niña de otoño.png">
+        <h3>NIÑA DE OTOÑO</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/4MKMNF5pAHtnmZQXdXywjV" class="box">
+        <img src="images/la luna se quedó para verme llorar.png">
+        <h3>LA LUNA SE QUEDÓ PARA VERME LLORAR</h3>
+      </a>
+      <a href="https://open.spotify.com/intl-es/track/2Mbz1H6vBgFDQACqLvnP8N" class="box">
+        <img src="images/Tormenta.png">
+        <h3>TORMENTA</h3>
+      </a>
+        <a href="https://open.spotify.com/intl-es/track/5bHj7e5V6h7bfgYBkbsmNY" class="box">
+        <img src="images/hojas secas.png">
+        <h3>HOJAS SECAS</h3>
+      </a>
+    </div>
   </section>
 
-  <!-- BOXES -->
-  <section class="boxes">
+  <!-- EVENTOS -->
+  <section class="events-section" id="events">
+    <h2>Próximos eventos</h2>
 
-    <a href="https://open.spotify.com/intl-es/track/0FovSrwJq5ePSqWp1mTcDN" class="box">
-      <img src="images/Mi corazon.png">
-      <h3>MI CORAZÓN</h3>
-    </a>
+    <div id="dropdown" class="dropdown">
+      <button class="dropdown-btn">Ver eventos</button>
 
-    <a href="https://open.spotify.com/intl-es/track/5P07LDV1emqJUY5qJsvNYA" class="box">
-      <img src="images/home.png">
-      <h3>HOME</h3>
-    </a>
+      <div class="dropdown-content">
+        <div class="boxes events-grid">
 
-    <a href="https://open.spotify.com/intl-es/track/1ZY2Bf90O40gRVqHZzz78k" class="box">
-      <img src="images/violetas.png">
-      <h3>VIOLETAS</h3>
-    </a>
+          <a href="#" class="box">
+            <img src="images/Luany en concierto.jpeg">
+            <h3>22 de abril Foro Pablo Silva Garcia 7:30 pm</h3>
+          </a>
 
-    <a href="https://open.spotify.com/intl-es/track/6bkv3n73aaF5z6jUO8bYM9" class="box">
-      <img src="images/café con sal.png">
-      <h3>CAFÉ CON SAL</h3>
-    </a>
+          <a href="#" class="box">
+            <img src="images/feria del ponche pan y cafe.jpg">
+            <h3>6 de Abril feria del ponche pan y café 8:00 pm</h3>
+          </a>
 
-    <a href="https://open.spotify.com/intl-es/track/3BKMckqT9OLmEzqIP6NJ6c" class="box">
-      <img src="images/origen.png">
-      <h3>ORIGEN</h3>
-    </a>
-
-    <a href="https://open.spotify.com/intl-es/track/6E2uSCe4YixjBWl4JBHFVh" class="box">
-      <img src="images/Niña de otoño.png">
-      <h3>NIÑA DE OTOÑO</h3>
-    </a>
-
+          <a href="#" class="box">
+            <img src="images/museo fernando del paso.jpg">
+            <h3>27 de Abril Museo Fernando del Paso 7:30 pm</h3>
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <!-- CONTACTO -->
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contactame</h2>
+        <p><strong>Correo:</strong> luanymusic@gmail.com</p>
+        <p><strong>Teléfono:</strong> +52 314 109 3629</p>
+
+        <div class="social-grid">
+          <a href="https://www.facebook.com/LUANYMusic"><img src="images/facebook.png"></a>
+          <a href="https://www.instagram.com/luanymusic?igsh=MXRqczRxb2J0NDJybg=="><img src="images/Instagram.png"></a>
+          <a href="https://open.spotify.com/artist/0pPDOq3urWHuXjQdTYVcab?si=XVu_6P_kRNu_0aj_-ebFLw"><img src="images/spotify.png"></a>
+          <a href="https://www.tiktok.com/@luanymusic?_r=1&_t=ZS-94zHINprar7"><img src="images/tiktok.png"></a>
+        </div>
+      </div>
+
+      <div class="contact-image">
+        <img src="images/LuanyMusic.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="scripts/dropdown.js"></script>
 
 </body>
 </html>
